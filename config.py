@@ -22,4 +22,4 @@ class Config:
     JWT_ACCESS_TOKEN_EXPIRES = timedelta(hours=2)   # Token berlaku 2 jam
     JWT_REFRESH_TOKEN_EXPIRES = timedelta(days=30)  # Refresh token 30 hari
 
-    SECRET_KEY = os.getenv("SECRET_KEY", "flask-secret-key")
+    SECRET_KEY = os.getenv("SECRET_KEY")
