@@ -18,7 +18,7 @@ class Config:
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
     # Secret key untuk JWT (ganti dengan string acak yang panjang di production!)
-    JWT_SECRET_KEY = os.getenv("JWT_SECRET_KEY", "storeapi-secret-key-2024")
+    JWT_SECRET_KEY = os.getenv("JWT_SECRET_KEY")
     JWT_ACCESS_TOKEN_EXPIRES = timedelta(hours=2)   # Token berlaku 2 jam
     JWT_REFRESH_TOKEN_EXPIRES = timedelta(days=30)  # Refresh token 30 hari
 
