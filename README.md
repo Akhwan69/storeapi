@@ -1,7 +1,7 @@
 # 🛒 StoreAPI — REST API Manajemen Toko
 
 REST API untuk manajemen toko sederhana, dibangun dengan **Python Flask** dan **PostgreSQL**.  
-Dibuat sebagai project portofolio PKL - Kelas XI RPL.
+Dibuat sebagai project portofolio PKL - RPL.
 
 ---
 
@@ -94,7 +94,7 @@ Server berjalan di: **http://localhost:5000**
 POST /api/auth/register
 {
   "nama": "Budi Santoso",
-  "email": "budi@email.com",
+  "email": "budi@gmail.com",
   "password": "rahasia123"
 }
 ```
@@ -103,7 +103,7 @@ POST /api/auth/register
 ```json
 POST /api/auth/login
 {
-  "email": "budi@email.com",
+  "email": "budi@gmail.com",
   "password": "rahasia123"
 }
 ```
@@ -177,5 +177,4 @@ PATCH /api/produk/1/tambah-stok
 
 ## 👤 Author
 
-**[Nama Kamu]** — Siswa XI RPL  
-Project PKL — [Tahun]
+**Akhwan** — RPL  
